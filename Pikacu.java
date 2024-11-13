@@ -25,17 +25,17 @@ public class Pikacu{
         sexo = sexoDelPikachu;
     }
 
-    public void aumentarPrecio(int laEdad){
+    public void aumentarEdad(int laEdad){
         edad = laEdad + edad;
     }
 
-    public void cambiarViejo(){
-        if(fuerte = true){
+    public void condidcionFuerte(){
+        if(fuerte == true){
             fuerte = false;
         }
-        else{
+        else if(fuerte ==false){
             fuerte = true;
-        }           
+        }
     }
 
     public void imprimirEstado(){
